@@ -1,0 +1,1 @@
+from pydub import AudioSegmentsound = AudioSegment.from_file("audio_speech_actors_01-24/Actor_01/03-01-01-01-01-01-01.wav", format="wav")loudness = sound.dBFSchannel_count = sound.channelsbytes_per_sample = sound.sample_widthbytes_per_frame = sound.frame_widthprint(loudness)print(channel_count)print(bytes_per_sample)print(bytes_per_frame)
